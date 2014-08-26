@@ -50,7 +50,6 @@ int lerOperacao(double notasAlunos[],int totalNotas)
     switch(op)
     {
     case 1:
-        cout<<"Verifica Nota Especifica"<<endl;
         recebeNotas(notasAlunos,totalNotas);
         chamarMenu(notasAlunos,totalNotas);
         break;
