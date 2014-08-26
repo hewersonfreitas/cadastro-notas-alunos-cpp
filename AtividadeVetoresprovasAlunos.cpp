@@ -31,7 +31,7 @@ double calculaMedia(double vetorNotas[],int totalNotas)
 
 void verificarNota(double vetorNotas[]){
     int indiceNota;
-    cout<<"Digite qual nota deseja buscar, sendo elas de 1 a 10";
+    cout<<"Digite qual nota deseja buscar, sendo elas de 1 a 10: ";
     cin>>indiceNota;
     cout<<"A nota da prova "<<indiceNota<<" que solicitou e: "<<vetorNotas[indiceNota-1]<<endl;
 }
